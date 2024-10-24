@@ -1,0 +1,70 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    background-color: #1b325f;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #e9f2f9;
+    color: #1b325f;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #e9f2f9;
+}
+
+.navbar-toggler {
+    background-color: #e9f2f9;
+}
+
+.section-title {
+    font-style: italic;
+    font-weight: 700;
+}
+
+#nossaEquipe, #faleConosco {
+    background-color: #1b325f;
+    color: #e9f2f9;
+}
+
+.text-colored {
+    color: #1b325f;
+}
+
+.nav-servicos .nav-link.active {
+    background-color: #1b325f;
+    color: #e9f2f9;
+}
+
+.nav-servicos .nav-link:hover {
+    color: #1b325f;
+}
+
+#faleConosco button {
+    background-color: #e9f2f9;
+    color: #1b325f;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links i {
+    color: #e9f2f9;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 200px;
+    };
+}
